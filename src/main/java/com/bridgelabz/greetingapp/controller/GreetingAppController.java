@@ -1,10 +1,13 @@
-package com.bridgelabz.greetingapp;
+package com.bridgelabz.greetingapp.controller;
 
 import java.util.List;
 import java.util.Map;
 
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
+
+import com.bridgelabz.greetingapp.DTO.Greeting;
+import com.bridgelabz.greetingapp.service.GreetingService;
 
 @RestController
 @RequestMapping("/greeting")

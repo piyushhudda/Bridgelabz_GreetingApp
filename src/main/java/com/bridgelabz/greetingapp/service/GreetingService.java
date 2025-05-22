@@ -1,5 +1,8 @@
-package com.bridgelabz.greetingapp;
+package com.bridgelabz.greetingapp.service;
 import org.springframework.stereotype.Service;
+
+import com.bridgelabz.greetingapp.DTO.Greeting;
+import com.bridgelabz.greetingapp.repository.GreetingRepository;
 
 import java.util.List;
 

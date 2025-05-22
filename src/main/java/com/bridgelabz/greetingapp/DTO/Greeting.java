@@ -1,4 +1,4 @@
-package com.bridgelabz.greetingapp;
+package com.bridgelabz.greetingapp.DTO;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
